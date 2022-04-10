@@ -27,7 +27,8 @@ class Main{
             }
         }
         for(Map.Entry<Integer, Integer> e: factors.entrySet()){
-            System.out.print(e.getKey()+"^"+e.getValue()+" ");
+            for(int j = 0; j<e.getValue(); j++)
+            System.out.print(e.getKey() + " ");
         }
         scan.close();
     }

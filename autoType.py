@@ -11,10 +11,10 @@ for line in open(filename, "r"):
     l = list(line)
     
     for i in line:
-        if(i=="}"):
-            pyautogui.press("down")
-            pyautogui.press("enter")
-        else:
+        # if(i=="}"):
+        #     pyautogui.press("down")
+        #     pyautogui.press("enter")
+        # else:
          pyautogui.write(i)
          
         # time.sleep(0.0001)
